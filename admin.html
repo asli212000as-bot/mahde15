@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة التحكم - متجر الورد</title>
+  <link rel="stylesheet" href="admin.css">
+  <script type="module" src="firebase-config.js"></script>
+</head>
+<body>
+  <h1>لوحة التحكم 🌷</h1>
+  <form id="addPackageForm">
+    <input type="text" id="name" placeholder="اسم الباقة" required>
+    <input type="number" id="price" placeholder="السعر" required>
+    <input type="text" id="ribbon" placeholder="نوع الربون" required>
+    <textarea id="details" placeholder="تفاصيل الباقة"></textarea>
+    <input type="file" id="image" required>
+    <button type="submit">إضافة الباقة</button>
+  </form>
+  <hr>
+  <div id="packagesList" class="grid"></div>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

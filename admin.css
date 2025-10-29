@@ -1,0 +1,45 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: #fff6f8;
+  text-align: center;
+  color: #333;
+}
+h1 {
+  background: #ff8fab;
+  color: white;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
+}
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+input, textarea, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #ff8fab;
+  color: white;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.package {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
